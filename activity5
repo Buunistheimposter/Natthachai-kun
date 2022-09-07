@@ -1,0 +1,6 @@
+SEND 'Please enter the first number' TO DISPlAY
+RECEIVE firstNumber FROM KEYBOARD
+SEND 'Please enter the second number' TO DISPlAY
+RECEIVE secondNumber FROM KEYBOARD
+SET total TO firstNumber * secondNumber
+SEND total TO DISPLAY
