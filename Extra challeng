@@ -1,0 +1,16 @@
+SEND"please enter your height(metres)"TO DISPLAY
+RECEIVE height FROM KEYBOARD
+SEND"please enter your weight(kilograms)"TO DISPLAY
+RECEIVE weight FROM KEYBOARD
+SET BMI TO weight/height^2
+IF BMI<18.5 then
+SEND"Underweight"TO DISPLAY
+ELSE
+IF BMI<=24.9 then
+SEND"Normal weight"TO DISPLAY
+ELSE
+IF BMI>=25 then
+SEND"Overweight"TO DISPLAY
+END IF
+END IF
+END IF
