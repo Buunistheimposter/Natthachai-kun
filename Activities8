@@ -1,0 +1,12 @@
+SET mystnumber to 3
+SEND"plese enter number"TO DISPLAY
+RECEIVE guess FROM KEYBOARD
+IF guess > 10 then 
+SEND"Too high your guess must be betwwen 1-10"TO DISPLAY
+ElSE 
+IF guess = mystnumber then
+SEND"Your correct my number is 3"TO DISPLAY
+ELSE
+SEND"Better lcuk next time my number is 3"TO DISPLAY
+END IF
+END IF
