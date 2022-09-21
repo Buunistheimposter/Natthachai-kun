@@ -1,0 +1,6 @@
+SEND"Enter height(in metres)"TO DISPLAY
+RECEIVE height FROM KEYBOARD
+SEND"Enter weight(in kilograms)"TO DISPlAY
+RECEIVE weight FROM KEYBOARD
+SET BMI TO weight/height^2
+Send"Your body mass index is+"BMI TO DISPLAY
